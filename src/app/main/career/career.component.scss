@@ -1,0 +1,13 @@
+@import "src/@fuse/scss/fuse";
+.mainContainer {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+	width: 90%;
+	height:auto;
+    background:#FFF;
+	border-radius:15px;
+	display: flex;
+    box-shadow: 0px 0px 10px 6px #ccc;
+    padding: 15px;
+  }

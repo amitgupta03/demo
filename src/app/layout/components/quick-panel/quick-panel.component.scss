@@ -1,0 +1,31 @@
+quick-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 330px;
+    min-width: 330px;
+    max-width: 330px;
+    z-index: 99;
+
+    .mat-slide-toggle-content {
+        flex: 1;
+    }
+}
+
+.heading-font {
+    font-size: 25px;
+}
+
+.mat-list-base .mat-list-item .mat-line {
+    white-space: normal;
+    word-break: break-word;
+    overflow: visible;
+    text-overflow: clip;
+    display: block;
+    box-sizing: border-box;
+}
+
+.message-Content {
+    padding: 0px 16px 16px 16px;
+    word-break: break-word;
+}

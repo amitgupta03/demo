@@ -1,0 +1,27 @@
+// Import Fuse core library
+@import "@fuse/scss/core";
+
+// Import app.theme.scss
+@import "app/app.theme";
+.mat-form-field-appearance-outline .mat-form-field-suffix {
+    top: 0em;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 15px;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0px 0;
+}
+.mat-form-field {
+    font: 400 14px/1.125 Muli, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 8px;
+}
+.text-align-left {
+    text-align: left !important;
+}
+
+.mat-form-field-infix {
+    /* padding: 0.5em 0; */
+    border-top: 5px solid transparent;
+}
